@@ -22,3 +22,11 @@
  .time-label {
    font-size: 14px;
  }
+
+ .hero-img {
+   width: 290px;
+ }
+
+ .hero-img img {
+   width: 100%; 
+ }
