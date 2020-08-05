@@ -4,4 +4,6 @@
   <%= link_to a.title, article_path(a) %><br><br>  
 <% end %>
 
-<%= link_to "Create New Article", new_article_path %>
+<% if logged_in? %>
+  <%= link_to "Create New Article", new_article_path %>
+<% end %>
